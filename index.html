@@ -4,17 +4,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="./images/label.png" />
 
   <!-- Put your site title here -->
   <title>
     Prathamesh Deshpande
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
+  <meta name="description" content="Version 1 of Portfolio Website">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="keywords" content="MLops" />
   <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="./social-media-icons.css">
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -59,17 +61,17 @@
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
-
+          <div class = "card1">
           <div class="work__box">
             <div class="work__text">
-              <h3>Raddiwala</h3>
-              <p>
-                Raddiwala is a 5 page react based website with node js as backend and 
-                MongoDB as database. The main objective of the project is to let people 
-                have an online platform to sell their recyclable scrap easily and efficiently.
+              <h3 class="work-title twelve">Raddiwala</h3>
+              <p class="aboutsection-paragraph work-paragraph">
+                Raddiwala is a 5 page <span class = "text-change"  >React</span> based website with <span class = "text-change"  >Node Js</span> as backend and 
+                <span class = "text-change"  >MongoDB</span> as database. The main objective of the project is to let people 
+                have an online platform to sell their recyclable scrap <span class = "text-change"  >Easily</span> and <span class = "text-change"  >Efficiently</span>.
                 The scrap collected would be safely handled and sell it as a raw material to companies
               </p>
-              <ul class="work__list">
+              <ul class="work__list work-paragraph">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -82,7 +84,7 @@
                   Visit Site <span>&rarr;</span>
                 </a>
                 <a href="https://github.com/tapishsharma/Raddiwala" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                  <img src="./images/s1.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
@@ -90,16 +92,18 @@
               <img src="./images/p1.png" class="work__image" alt="Project 1" />
             </div>
           </div>
-
+        </div>
+        
+        <div class = "card1">
           <div class="work__box">
             <div class="work__text">
-              <h3>Siketool</h3>
-              <p>
-                It is a online diary application which is developed using Reactjs and Nodejs
-                that can predict if sommeone is in depression or not based on the diary input.
-                Person can also monitor their mental health with this ML Based web application 
+              <h3 class="work-title">Siketool</h3>
+              <p class="aboutsection-paragraph work-paragraph">
+                It is a <span class = "text-change"  >online diary</span> application which is developed using <span class = "text-change"  >Reactjs</span> and <span class = "text-change"  >Nodejs</span>
+                that can predict if sommeone is in <span class = "text-change"  >depression</span> or not based on the diary input.
+                Person can also monitor their <span class = "text-change"  >mental health</span> with this ML Based web application 
               </p>
-              <ul class="work__list">
+              <ul class="work__list work-paragraph">
                 <li>React</li>
                 <li>Nodejs</li>
                 <li>NLP</li>
@@ -110,8 +114,8 @@
                 <a href="https://github.com/harshitaggarwal01/SikeTool-Remote-mental-health-mentoring-tool" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                <a href="https://github.com/harshitaggarwal01/SikeTool-Remote-mental-health-mentoring-tool">
+                  <img src="./images/s1.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
@@ -119,15 +123,17 @@
               <img src="./images/p2.png" class="work__image" alt="Project 1" />
             </div>
           </div>
+        </div>
 
+        <div class = "card1">
           <div class="work__box">
             <div class="work__text">
-              <h3>Auto Colorization</h3>
-              <p>
-                Its is a machine learning based web application which can be used to colorize any image.
-                The input given to the application is a grayscale image and the output is the image with the colorized pixels.
+              <h3 class="work-title">Auto Colorization</h3>
+              <p class="aboutsection-paragraph work-paragraph">
+                Its is a <span class = "text-change"  >machine learning</span> based web application which can be used to colorize any image.
+                The input given to the application is a <span class = "text-change"  >grayscale image</span> and the output is the image with the <span class = "text-change"  >colorized pixels</span>.
               </p>
-              <ul class="work__list">
+              <ul class="work__list work-paragraph">
                 <li>Autoencoders</li>
                 <li>Machine learning</li>
                 <li>CNNs</li>
@@ -138,8 +144,8 @@
                 <a href="https://github.com/PrathameshDeshpande/Auto_Colorization" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                <a href="https://github.com/PrathameshDeshpande/Auto_Colorization">
+                  <img src="./images/s1.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
@@ -148,6 +154,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
 
@@ -211,29 +218,17 @@
 
   <!-- ***** Footer ***** -->
 
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/ImPDP25" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/PrathameshDeshpande" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/prathamesh-deshpande-86716718a/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-
+<footer class="footer">
+  <div class="social-menu">
+    <ul>
+        <li><a href="https://github.com/PrathameshDeshpande" target="blank"><i class="fab fa-github"></i></i></a></li>
+        <li><a href="https://www.instagram.com/_._zephyrus_._/" target="blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/prathamesh-deshpande-86716718a/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href=""><i class="fab fa-codepen" target="blank"></i></a></li>
+        <li><a href="https://twitter.com/ImPDP25"><i class="fab fa-twitter" target="blank"></i></a></li>
+    </ul>
+  </div>
+</footer>
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
